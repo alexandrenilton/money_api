@@ -35,7 +35,7 @@ public class PessoaService {
 	}
 	
 	
-	private Pessoa findPersonById(Long id) {
+	public Pessoa findPersonById(Long id) {
 		Pessoa pessoaSaved = pessoaRepository.findById(id).orElse(null);
 		if ( pessoaSaved == null ) {
 			throw new EmptyResultDataAccessException(1); // esperava apenas 1 elemento

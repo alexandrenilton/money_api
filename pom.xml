@@ -69,6 +69,17 @@
     		<artifactId>jackson-datatype-jsr310</artifactId>
 		</dependency>
 		
+		<!-- pegar descricao detalhada dos exceptions -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+		
+		<!-- JpamodelGen -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-jpamodelgen</artifactId>
+		</dependency>
 		
 	</dependencies>
 
