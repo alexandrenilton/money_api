@@ -87,6 +87,14 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		
+		<!-- OAuth2 -->
+		<dependency>
+			<groupId>org.springframework.security.oauth</groupId>
+			<artifactId>spring-security-oauth2</artifactId>
+			<version>2.3.3.RELEASE</version>  
+			<!--<version>2.3.0.RC1</version>-->
+		</dependency>
+		
 	</dependencies>
 
 	<build>
